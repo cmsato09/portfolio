@@ -14,10 +14,9 @@ A modern fullstack web application providing game information to [Dragon Quest M
 
 #### Technologies Used
 
-- **Backend:** [FastAPI](https://fastapi.tiangolo.com/) for a async API.
-- **Database:** [SQLite](https://www.sqlite.org/index.html) with [SQLModel](https://sqlmodel.tiangolo.com/).
+- **Backend:** [FastAPI](https://fastapi.tiangolo.com/) for an asynchronous API, using a [SQLite](https://www.sqlite.org/index.html) database.
 - **Frontend:** [ReactJS](https://react.dev/) and [Radix UI](https://www.radix-ui.com/) for responsive web design.
-- **MVP:** [Streamlit](https://streamlit.io/) for prototyping and quick deployment.
+- **MVP:** [Streamlit](https://streamlit.io/) for prototyping and easy deployment.
 
 #### FastAPI Backend
 
@@ -58,7 +57,7 @@ Initial prototype that laid the foundation for the ReactJS app.
 ### [pybites-carbon](https://github.com/PyBites-Open-Source/pybites-carbon)
 pybites-carbon is a CLI tool that interfaces with [carbon](https://carbon.now.sh/) for generating code images, using [Playwright](https://playwright.dev/) for browser automation.
 
-My contributions includes:
+My contributions include:
 - Migrating the project from Selenium to Playwright, improving performance. 
 - Integrating the uv package manager and updating the GitHub Actions to use it.
 - Updating the README to reflect the changes. 
